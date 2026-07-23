@@ -178,37 +178,7 @@ int main()
 
 /*
 
-//===========================
-// Problem 5 : Vertical Word Printer
-//===========================
 
-void printVertical(char word[], int size)
-{
-    for(int i = 0; i < size; i++)
-    {
-        cout << word[i] << endl;
-    }
-}
-
-int main()
-{
-    char word[100];
-
-    cout << "Enter Word: ";
-    cin >> word;
-
-    int size = 0;
-
-    while(word[size] != '\0')
-    {
-        size++;
-    }
-
-    printVertical(word, size);
-
-    return 0;
-}
-/*
 
 //===========================
 // Problem 6 : Reverse Word
